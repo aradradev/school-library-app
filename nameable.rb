@@ -1,5 +1,4 @@
 class Nameable
-
   def initialize(namable)
     @namable = namable
   end
@@ -7,5 +6,4 @@ class Nameable
   def correct_name
     raise NotImplementedError
   end
-  
 end
