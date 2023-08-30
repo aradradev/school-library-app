@@ -15,5 +15,6 @@ class Book
     @rentals << rental
     person.rentals << rental
     rental.book = self
+    rental
   end
 end
