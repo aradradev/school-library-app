@@ -17,4 +17,8 @@ class Book
     rental.book = self
     rental
   end
+
+  def associate_rental(rental)
+    @rentals << rental
+  end
 end
