@@ -5,9 +5,9 @@ def library_loop(app)
 
   loop do
     app.display_menu
-    choice = gets.chomp.to_i
-    menu.execute_choice(choice)
+    user_choice = gets.chomp.to_i
+    menu.execute_choice(user_choice)
 
-    break if choice == 7
+    break if user_choice == 7
   end
 end
