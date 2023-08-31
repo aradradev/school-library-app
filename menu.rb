@@ -1,3 +1,5 @@
+# CyclomaticComplexity Bug
+# rubocop:disable Metrics/CyclomaticComplexity
 class Menu
   def initialize(app)
     @app = app
