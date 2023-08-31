@@ -1,5 +1,3 @@
-# CyclomaticComplexity Bug
-# rubocop:disable Metrics/CyclomaticComplexity
 class Menu
   def initialize(app)
     @app = app
@@ -16,8 +14,8 @@ class Menu
     puts '7. Quit'
   end
 
-  def execute_choice(choice)
-    case choice
+  def execute_choice(user_choice)
+    case user_choice
     when 1
       list_books
     when 2
